@@ -1,5 +1,4 @@
 <div id="trendingContainer" class="container">
-    <div id="trendingTitle">{{ __('home.trending') }}</div>
     <div id="trendingSectionsContainer" class="row gx-5">
         <div class="col-md-4">
             <div class="col-md-12" id="trendingAccountsSection">
@@ -10,24 +9,24 @@
                 </div>
                 <div id="trendingAccountsBody">
                     <div class="trendingSection">
-                        <div class="name">Account1 - Sura</div>
-                        <div class="level">Lv95</div>
+                        <div class="name"><span class="circle">95</span>Sura</div>
+                        <div class="level">Carpathians</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Account2 - Warrior</div>
-                        <div class="level">Lv2 Champion</div>
+                        <div class="name"><span class="circle champion">2</span>Razboinic</div>
+                        <div class="level">Tara Romaneasca</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Account3 - Shaman</div>
-                        <div class="level">Lv105</div>
+                        <div class="name"><span class="circle">105</span>Shaman</div>
+                        <div class="level">Tara Romaneasca</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Account4 - Ninja</div>
-                        <div class="level">Lv35</div>
+                        <div class="name"><span class="circle">35</span>Ninja</div>
+                        <div class="level">Carpathians</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Account5 - Lycan</div>
-                        <div class="level">Lv61</div>
+                        <div class="name"><span class="circle">61</span>Lycan</div>
+                        <div class="level">Tigerghost</div>
                     </div>
                     <div class="trendingSection trendingAll">{{ __('home.discoverAll') }}</div>
                 </div>
@@ -42,24 +41,24 @@
                 </div>
                 <div id="trendingItemsBody">
                     <div class="trendingSection">
-                        <div class="name">Full Moon Sword</div>
-                        <div class="level">+9</div>
+                        <div class="name">Full Moon Sword +9</div>
+                        <div class="level">Romania</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Titan Shield</div>
-                        <div class="level">+9</div>
+                        <div class="name">Titan Shield +9</div>
+                        <div class="level">Lynx</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Kyanite Bow</div>
-                        <div class="level">+8</div>
+                        <div class="name">Kyanite Bow +8</div>
+                        <div class="level">Tigerghost</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Half Moon Sword</div>
-                        <div class="level">+5</div>
+                        <div class="name">Half Moon Sword +5</div>
+                        <div class="level">Carpathians</div>
                     </div>
                     <div class="trendingSection">
-                        <div class="name">Red Iron Blade</div>
-                        <div class="level">+7</div>
+                        <div class="name">Red Iron Blade +7</div>
+                        <div class="level">Tigerghost</div>
                     </div>
                     <div class="trendingSection trendingAll">{{ __('home.discoverAll') }}</div>
                 </div>
@@ -75,23 +74,23 @@
                 <div id="trendingGameCoinsBody">
                     <div class="trendingSection">
                         <div class="name">200 won</div>
-                        <div class="level">4 lei</div>
+                        <div class="level">Tigerghost</div>
                     </div>
                     <div class="trendingSection">
                         <div class="name">300 won</div>
-                        <div class="level">5 lei</div>
+                        <div class="level">Carpathians</div>
                     </div>
                     <div class="trendingSection">
                         <div class="name">105 won</div>
-                        <div class="level">4.5 lei</div>
+                        <div class="level">Carpathians</div>
                     </div>
                     <div class="trendingSection">
                         <div class="name">77 won</div>
-                        <div class="level">5.5 lei</div>
+                        <div class="level">Tara Romaneasca</div>
                     </div>
                     <div class="trendingSection">
                         <div class="name">90 won</div>
-                        <div class="level">5 lei</div>
+                        <div class="level">Tigerghost</div>
                     </div>
                     <div class="trendingSection trendingAll">{{ __('home.discoverAll') }}</div>
                 </div>

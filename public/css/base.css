@@ -410,16 +410,16 @@ header .header-buttons a {
 }
 
 #dropdownMenuOffset {
-    border: 1px solid #0d6efd;
+    border: 1px solid #00a1ff;
     color: white;
     border-radius: 5px;
-    background: #0d6efd;
+    background: #00a1ff;
     min-width: 90px;
 }
 
 #languageDropdownMenu {
     padding: 0;
-    background: #0d6efd;
+    background: #00a1ff;
     max-width: 50px;
     width: 50px;
     inset: 0px auto auto 0px !important;
@@ -445,6 +445,8 @@ header .header-buttons a {
     font-size: 30px;
     font-weight: bold;
     color: white;
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 50%);
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 50%);
 }
 
 #sectionsContainer {
@@ -465,7 +467,7 @@ header .header-buttons a {
 }
 
 #sectionsContainer #accountsLogo {
-    background: #0d6efd;
+    background: #00a1ff;
 }
 
 #sectionsContainer #itemsLogo {
@@ -493,7 +495,7 @@ header .header-buttons a {
 }
 
 #trendingContainer {
-    padding: 20px;
+    padding: 0 50px 50px 50px;
 }
 
 #trendingTitle {
@@ -504,8 +506,14 @@ header .header-buttons a {
 }
 
 #trendingAccountsHead {
-    background: #0d6efd;
+    background: #00a1ff;
     padding: 20px;
+}
+
+.text-h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
 #trendingItemsHead {
@@ -524,6 +532,8 @@ header .header-buttons a {
     border: 1px solid #e7e7e7;
     border-radius: 4px;
     padding: 0;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
 }
 
 .trendingSection {
@@ -531,6 +541,21 @@ header .header-buttons a {
     padding: 15px;
     border-bottom: 1px solid #e7e7e7;
     position: relative;
+}
+
+.trendingSection .circle {
+    background: rgb(117, 200, 52);
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.trendingSection .circle.champion {
+    background: rgb(246, 103, 137);
 }
 
 .trendingSection:last-child {
@@ -566,7 +591,7 @@ header .header-buttons a {
 }
 
 #trendingSectionsContainer .trendingSection.trendingAll {
-    color: #0d6efd;
+    color: #00a1ff;
 }
 
 #trendingSectionsContainer .col-md-4 {
@@ -578,3 +603,42 @@ header .header-buttons a {
     position: relative;
 }
 
+.padding-25-40 {
+    padding: 25px 40px;
+}
+
+#infoContainer {
+    background: #00a1ff;
+}
+
+#infoContainer .material-icons {
+    font-size: 80px;
+}
+
+#backToTopSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    cursor: pointer;
+    gap: 5px;
+}
+
+#copyrightContainer {
+    padding: 40px;
+}
+
+#copyrightContainer img {
+    height: 50px;
+    margin: 0 10px;
+}
+
+#copyrightContainer .col-md-8 {
+    color: #9292a2;
+}
+
+#copyrightContainer .text-right {
+    text-align: right;
+}
