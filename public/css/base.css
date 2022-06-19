@@ -561,7 +561,7 @@ header .header-buttons a {
     right: 10px;
     top: 0;
     font-size: 90px;
-    opacity: 0.2;
+    opacity: 0.6;
     color: white;
 }
 
@@ -571,5 +571,10 @@ header .header-buttons a {
 
 #trendingSectionsContainer .col-md-4 {
     padding: 0 10px;
+}
+
+
+#trendingSectionsContainer .trendingHead {
+    position: relative;
 }
 

@@ -3,7 +3,7 @@
     <div id="trendingSectionsContainer" class="row gx-5">
         <div class="col-md-4">
             <div class="col-md-12" id="trendingAccountsSection">
-                <div id="trendingAccountsHead">
+                <div class="trendingHead" id="trendingAccountsHead">
                     <div class="service">{{ strtoupper(__('home.service')) }}</div>
                     <div class="highlight">{{ __('home.accounts') }}</div>
                     <div class="material-icons">group</div>
@@ -35,9 +35,10 @@
         </div>
         <div class="col-md-4">
             <div class="col-md-12" id="trendingItemsSection">
-                <div id="trendingItemsHead">
+                <div class="trendingHead" id="trendingItemsHead">
                     <div class="service">{{ strtoupper(__('home.service')) }}</div>
                     <div class="highlight">{{ __('home.items') }}</div>
+                    <div class="material-icons">home_repair_service</div>
                 </div>
                 <div id="trendingItemsBody">
                     <div class="trendingSection">
@@ -66,9 +67,10 @@
         </div>
         <div class="col-md-4">
             <div class="col-md-12" id="trendingGameCoinsSection">
-                <div id="trendingGameCoinsHead">
+                <div class="trendingHead" id="trendingGameCoinsHead">
                     <div class="service">{{ strtoupper(__('home.service')) }}</div>
                     <div class="highlight">{{ __('home.gameCoins') }}</div>
+                    <div class="material-icons">monetization_on</div>
                 </div>
                 <div id="trendingGameCoinsBody">
                     <div class="trendingSection">
