@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Database\Console\Migrations\BaseCommand;
-
 class MainController
 {
     public function index()

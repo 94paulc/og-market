@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="{{ asset('css/base.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
 
 <div class="container header-container">
@@ -17,8 +19,26 @@
         </a>
 
         <div class="col-md-3 header-buttons">
-            <a href="{{ route('register') }}" id="registerButton">Sign up</a>
-            <a href="{{ route('login') }}" id="loginButton">Login</a>
+            <div class="d-flex">
+                <div class="dropdown me-1">
+                    <button type="button" class="dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                        {{ Config::get('languages')[App::getLocale()] }}
+                    </button>
+                    <ul id="languageDropdownMenu" class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                        @foreach (Config::get('languages') as $lang => $language)
+                            @if ($lang != App::getLocale())
+                                <a href="{{ route('changeLanguage', $lang) }}">
+                                    <li>
+                                        {{$language}}
+                                    </li>
+                                </a>
+                            @endif
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+            <a href="{{ route('register') }}" id="registerButton">{{ __('home.signup') }}</a>
+            <a href="{{ route('login') }}" id="loginButton">{{ __('home.login') }}</a>
         </div>
     </header>
 </div>

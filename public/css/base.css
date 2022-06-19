@@ -408,3 +408,168 @@ header .header-buttons a {
     background: var(--bs-link-color);
     color: white;
 }
+
+#dropdownMenuOffset {
+    border: 1px solid #0d6efd;
+    color: white;
+    border-radius: 5px;
+    background: #0d6efd;
+    min-width: 90px;
+}
+
+#languageDropdownMenu {
+    padding: 0;
+    background: #0d6efd;
+    max-width: 50px;
+    width: 50px;
+    inset: 0px auto auto 0px !important;
+    transform: translate(0px, 38px) !important;
+    min-width: 90px !important;
+    text-align: center;
+}
+
+#languageDropdownMenu a {
+    color: white;
+}
+
+#searchContainer {
+    background: url(../img/home_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#sectionsContainer {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#sectionsContainer .section {
+    text-align: center;
+}
+
+#sectionsContainer .section-logo {
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#sectionsContainer #accountsLogo {
+    background: #0d6efd;
+}
+
+#sectionsContainer #itemsLogo {
+    background: rgb(46, 189, 181);
+}
+
+#sectionsContainer #gameCoinsLogo {
+    background: rgb(255, 198, 0);
+}
+
+#sectionsContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+#sectionsContainer .section-logo:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+}
+
+#trendingContainer {
+    padding: 20px;
+}
+
+#trendingTitle {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#trendingAccountsHead {
+    background: #0d6efd;
+    padding: 20px;
+}
+
+#trendingItemsHead {
+    background: rgb(46, 189, 181);
+    padding: 20px;
+}
+
+#trendingGameCoinsHead {
+    background: rgb(255, 198, 0);
+    padding: 20px;
+}
+
+#trendingAccountsSection,
+#trendingItemsSection,
+#trendingGameCoinsSection {
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.trendingSection {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #e7e7e7;
+    position: relative;
+}
+
+.trendingSection:last-child {
+    border-bottom: none;
+}
+
+.trendingSection .level {
+    position: absolute;
+    right: 15px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+#trendingSectionsContainer .service {
+    font-size: 13px;
+    color: white;
+}
+
+#trendingSectionsContainer .highlight {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+#trendingSectionsContainer .material-icons {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 90px;
+    opacity: 0.2;
+    color: white;
+}
+
+#trendingSectionsContainer .trendingSection.trendingAll {
+    color: #0d6efd;
+}
+
+#trendingSectionsContainer .col-md-4 {
+    padding: 0 10px;
+}
+
