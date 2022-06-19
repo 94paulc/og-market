@@ -1,18 +1,6 @@
 <?php
 
 return [
-
-    /*
-    |--------------------------------------------------------------------------
-    | Password Reset Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are the default lines which match reasons
-    | that are given by the password broker for a password update attempt
-    | has failed, such as for an invalid token or invalid new password.
-    |
-    */
-
     'login' => 'Login',
     'signup' => 'Sign up',
     'onlineGamingMarket' => 'Online Gaming - Market',
@@ -31,4 +19,10 @@ return [
     'backToTop' => 'Back to top',
     'copyrightText1' => 'Registered names and trademarks are the copyright and property of their respective owners.',
     'copyrightText2' => '© 2022 OG-Market.ro',
+    'welcomeBack' => 'Welcome back',
+    'rememberMe' => 'Remember me',
+    'email' => 'Email',
+    'password' => 'Password',
+    'password2' => 'Confirm password',
+    'name' => 'Name',
 ];

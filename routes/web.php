@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\AccountsController;
 use App\Http\Controllers\ItemsController;
@@ -18,10 +19,7 @@ use App\Http\Controllers\LanguageController;
 |
 */
 
-Route::get('/', [MainController::class, 'index'])->name('home');
-
-Route::get('/login', [MainController::class, 'login'])->name('login');
-Route::get('/register', [MainController::class, 'register'])->name('register');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/accounts', [AccountsController::class, 'index'])->name('accounts');
 Route::get('/items', [ItemsController::class, 'index'])->name('items');
@@ -29,4 +27,9 @@ Route::get('/game-coins', [GameCoinsController::class, 'index'])->name('gameCoin
 
 Route::get('/lang/{lang}', [LanguageController::class, 'changeLanguage'])->name('changeLanguage');
 
+Auth::routes();
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
